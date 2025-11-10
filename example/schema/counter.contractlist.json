@@ -1,0 +1,28 @@
+[
+  {
+    "chainId": 31337,
+    "hookName": "useCounterDiamond",
+    "name": "Counter Diamond",
+    "functions": [
+      {
+        "decrement": "Decrement"
+      },
+      {
+        "getNumber": "Get Number"
+      },
+      {
+        "increment": "Increment"
+      },
+      {
+        "setNumber": "Set Number",
+        "arguments": [
+          {
+            "name": "newNumber",
+            "type": "uint256",
+            "description": "New Number"
+          }
+        ]
+      }
+    ]
+  }
+]
