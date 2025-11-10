@@ -3,10 +3,18 @@
   "version": "0.0.1",
   "description": "EVM based development framework",
   "main": "index.js",
+  "workspaces": [
+    "lib/*"
+  ],
   "repository": "https://github.com/cyotee/daosys.git",
   "author": "cyotee <cyotee@gmail.com>",
   "license": "AGPL-3.0-or-later",
   "private": false,
+  "scripts": {
+    "wagmi-declare": "wagmi-declare",
+    "build:wagmi-declare": "npm -w @daosys/wagmi-declare run build",
+    "test:wagmi-declare": "npm -w @daosys/wagmi-declare test"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
     "@nomicfoundation/hardhat-ethers": "^3.0.0",

@@ -1,0 +1,8 @@
+{
+  "lib/crane": {
+    "rev": "3d83b84f898140d011f03c3c3959f2ad81b9c8b9"
+  },
+  "lib/daosys_frontend": {
+    "rev": "25c98c7792cd1a286b4f5f8337485d0de26360f5"
+  }
+}
