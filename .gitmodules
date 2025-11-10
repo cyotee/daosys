@@ -1,0 +1,6 @@
+[submodule "lib/crane"]
+	path = lib/crane
+	url = https://github.com/cyotee/crane
+[submodule "lib/daosys_frontend"]
+	path = lib/daosys_frontend
+	url = https://github.com/cyotee/daosys_frontend
