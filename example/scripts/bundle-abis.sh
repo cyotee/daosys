@@ -27,10 +27,14 @@ cd "$FRONTEND_DIR"
 echo "Running ABI bundler..."
 node scripts/bundle-local-abis.js --out-dir="$EXAMPLE_DIR/out"
 
+echo "Running contractlist bundler..."
+node scripts/bundle-contractlists.js --schema-dir="$EXAMPLE_DIR/schema"
+
 if [ $? -eq 0 ]; then
     echo ""
     echo "=== ABIs bundled successfully ==="
     echo "Manifest written to: $FRONTEND_DIR/public/local-abis.json"
+    echo "Contractlists written to: $FRONTEND_DIR/public/contractlists/index.json"
 else
     echo ""
     echo "Error: ABI bundling failed"

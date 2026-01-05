@@ -1,0 +1,9 @@
+# Vite build output
+/dist/
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Local-only config
+.env
+.env.*

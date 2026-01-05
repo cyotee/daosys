@@ -17,3 +17,6 @@ remappings.txt
 cache_forge/
 
 lib/
+
+# repo-local temp files (do not use system /tmp)
+tmp/

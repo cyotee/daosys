@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "greeter",
+      "file": "greeter.contractlist.json",
+      "defaultUi": "abi",
+      "matchContractNames": ["GreeterTarget", "Greeter"]
+    },
+    {
+      "id": "permissioned-greeter",
+      "file": "permissioned-greeter.contractlist.json",
+      "defaultUi": "contractlist",
+      "matchContractNames": ["OperableGreeterTarget", "PermissionedGreeter", "OperableGreeter"]
+    },
+    {
+      "id": "operable-greeter-generated",
+      "file": "operable-greeter-generated.contractlist.json",
+      "defaultUi": "contractlist",
+      "matchContractNames": ["OperableGreeterTarget", "OperableGreeter"]
+    }
+  ]
+}

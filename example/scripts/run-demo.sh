@@ -90,6 +90,9 @@ fi
 
 # Bundle ABIs
 node scripts/bundle-local-abis.js --out-dir="$EXAMPLE_DIR/out"
+
+# Bundle contractlists
+node scripts/bundle-contractlists.js --schema-dir="$EXAMPLE_DIR/schema"
 echo ""
 
 # Step 6: Print summary and instructions
