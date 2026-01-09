@@ -4,3 +4,6 @@
 [submodule "lib/daosys_frontend"]
 	path = lib/daosys_frontend
 	url = https://github.com/cyotee/daosys_frontend
+[submodule "lib/cyotee-claude-plugins"]
+	path = lib/cyotee-claude-plugins
+	url = https://github.com/cyotee/cyotee-claude-plugins
