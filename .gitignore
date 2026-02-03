@@ -20,3 +20,5 @@ lib/
 
 # repo-local temp files (do not use system /tmp)
 tmp/
+
+.claude/
