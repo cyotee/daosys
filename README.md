@@ -2,6 +2,8 @@
 
 DaoSYS is a Foundry-first Solidity workspace with Diamond/Crane-style examples, deployment scripts, and small frontend tooling used by the examples.
 
+**DAOSYS token** (name: DAOSYS, symbol: DAOSYS) will represent the project. Token contracts, bounty board, and UI will be implemented in this repo (using the Crane framework in `lib/crane` for the Diamond implementation). See `lib/crane/BANKR_LAUNCH.md` for the BankrBot launch plan.
+
 ## What this repo contains
 
 - `contracts/`: Solidity contracts and example building blocks.
